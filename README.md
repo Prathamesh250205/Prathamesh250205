@@ -160,6 +160,14 @@ open_to:
 
 ---
 
+## `> contribution-snake.gif`
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Prathamesh250205/Prathamesh250205/output/dist/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</div>
+
+---
+
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Prathamesh250205&color=FF6B35&style=for-the-badge&label=PROFILE+VIEWS)

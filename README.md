@@ -163,7 +163,7 @@ open_to:
 ## `> contribution-snake.gif`
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Prathamesh250205/Prathamesh250205/output/dist/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+<img src="https://raw.githubusercontent.com/Prathamesh250205/Prathamesh250205/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
 ---

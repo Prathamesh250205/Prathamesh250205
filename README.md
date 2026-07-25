@@ -154,7 +154,7 @@ open_to:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Prathamesh250205&theme=onedark&no-frame=true&column=7" />
+<img src="https://github-trophies.vercel.app/?username=Prathamesh250205&theme=onedark&no-frame=true&column=7" />
 
 </div>
 

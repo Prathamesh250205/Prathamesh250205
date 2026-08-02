@@ -160,6 +160,14 @@ open_to:
 
 ---
 
+## `> contribution-graph --normal`
+
+<div align="center">
+<img src="https://ghchart.rshah.org/FF6B35/Prathamesh250205" alt="Prathamesh's Github contribution graph" width="100%" />
+</div>
+
+---
+
 ## `> contribution-snake.gif`
 
 <div align="center">

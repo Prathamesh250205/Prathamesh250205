@@ -26,3 +26,175 @@ ROLE       =  AI Engineer (in progress) · Final-Year CSE Student
 DOMAIN     =  AI/ML  |  Deep Learning  |  Multimodal Systems
 INTERESTS  =  Multi-Agent Systems | LLM Eval & Observability | Full-Stack AI | Computer Vision
 OPEN_TO    =  AI/ML Engineering & Research-oriented Roles
+```
+
+---
+
+## `> ls /tech-stack --category`
+
+**Languages**
+
+![Languages](https://skillicons.dev/icons?i=python,java,cpp,c,js&theme=dark)
+
+**Frontend**
+
+![Frontend](https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark)
+
+**Backend**
+
+![Backend](https://skillicons.dev/icons?i=nodejs,express,fastapi,flask&theme=dark)
+
+**Databases**
+
+![Databases](https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&theme=dark)
+
+**Tools & DevOps**
+
+![Tools](https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman&theme=dark)
+
+**AI / ML**
+
+![AI-ML](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn,pandas,numpy&theme=dark)
+
+---
+
+## `> cat expertise.md`
+
+| Domain | Focus | Details |
+| :-- | :-- | :-- |
+| LLM Systems & RAG | Applied research | Grounded RAG, multi-provider fallback chains, text-to-SQL, hallucination detection |
+| Computer Vision | Explainable AI | CNN architecture comparison, Grad-CAM interpretability |
+| AI/ML | Deep Learning | Multimodal detection systems, drift-adaptive learning |
+| Emerging Focus | Systems | Multi-agent systems, LLM eval & observability, full-stack AI apps |
+| Backend | Full stack | React.js, Node.js, FastAPI, MySQL/PostgreSQL/MongoDB |
+
+---
+
+## `> ls /featured-projects`
+
+<details open>
+<summary><b>&#9654; RTI Sahayak</b> &mdash; AI-powered RTI application drafter with two-check statutory grounding</summary>
+
+Drafts legally grounded Right to Information (RTI Act, 2005) applications from citizen plain-language grievances. Procedural claims (filing manner, fees, response timeline) are deterministically grounded in statutory text with clause-level citation chips, backed by a resilient multi-provider LLM fallback chain.
+
+| Aspect | Detail |
+| :-- | :-- |
+| **Stack** | Python, FastAPI, Streamlit, ChromaDB, Groq / Gemini / Anthropic Haiku, ReportLab |
+| **Scale & Eval** | Evaluated on 113-case benchmark: **0.952 F1**, **100% recall on grievances**, and **0.000 false refusal rate** |
+| **Architecture** | Two-check grounding (Deterministic Procedural CHECK A + LLM Scope CHECK B) & multi-provider fallback |
+| **Links** | [GitHub Repo](https://github.com/Prathamesh250205/rti-sahayak) &bull; [Live App](https://rti-sahayak.onrender.com) &bull; [Sample Demo](https://rti-sahayak.onrender.com/demo) |
+
+</details>
+
+<details>
+<summary><b>&#9654; Lightweight CNN Architectures for Pneumonia Detection</b> &mdash; Comparative analysis with Grad-CAM explainability</summary>
+
+Detects pneumonia from chest X-ray images using deep learning, comparing three lightweight CNN models and visualizing what each one "looks at" when making its diagnosis — revealing that the most accurate model isn't always the most trustworthy one.
+
+| Aspect | Detail |
+| :-- | :-- |
+| **Stack** | Python, deep learning framework, Grad-CAM, Chest X-Ray dataset |
+| **Scale** | Comparative benchmark across 3 lightweight CNN architectures |
+| **Impact** | Surfaces the accuracy-vs-trustworthiness gap in medical CNNs via explainability |
+
+</details>
+
+<details>
+<summary><b>&#9654; Real-Time Multimodal Deepfake Detection</b> &mdash; Drift-adaptive detection for live video streams</summary>
+
+Research project aimed at detecting deepfakes in real-time video streams, combining spatial and audio-visual cues with online drift adaptation.
+
+| Aspect | Detail |
+| :-- | :-- |
+| **Stack** | Python, EfficientNet-B0, MTCNN, Haar Cascade, ADWIN, Grad-CAM |
+| **Scale** | Full pipeline: stream simulator → face extraction → spatial detector → training loop with early stopping |
+| **Impact** | Targeting a research paper submission, with potential for patent/copyright filing |
+| **Status** | Scaffold (Phases 1–2) implemented and tested; Phases 3–7 in progress |
+
+Designed and built the full project scaffold — stream simulator, face extraction pipeline, EfficientNet-B0-based spatial detector, training loop, shared evaluation metrics, YAML config, and a Colab quickstart notebook.
+
+</details>
+
+<details>
+<summary><b>&#9654; Text-to-SQL Interface with Guardrails & Hallucination Detection</b> &mdash; Safer natural-language-to-SQL generation</summary>
+
+An applied research concept exploring how to make text-to-SQL systems safer and more reliable by detecting hallucinated queries and enforcing guardrails.
+
+| Aspect | Detail |
+| :-- | :-- |
+| **Stack** | GPT-4/Claude API, LangChain, FastAPI, PostgreSQL, NeMo Guardrails, React.js, Streamlit |
+| **Scale** | Evaluated against Spider/BIRD benchmark datasets |
+| **Impact** | Grounded in literature review of TA-SQL, SQLHD, and related ACL/ACM research |
+
+</details>
+
+---
+
+## `> cat current-focus.yaml`
+
+```yaml
+learning:
+  - Multimodal deep learning architectures
+  - LLM evaluation & observability
+  - Multi-agent systems
+
+building:
+  - RTI Sahayak (Two-check statutory grounding & RAG)   # deployed live production app
+  - Pneumonia Detection with Grad-CAM explainability     # CNN comparison project
+  - Real-Time Multimodal Deepfake Detection              # final year research project
+  - Text-to-SQL Guardrails concept                       # alternative project exploration
+
+open_to:
+  - AI/ML Engineering roles
+  - Research-oriented internships/positions
+```
+
+---
+
+## `> github-stats --live`
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Prathamesh250205&show_icons=true&hide_border=true&title_color=FF6B35&icon_color=FFB627&text_color=E8F5E1&bg_color=0D1117" />
+
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Prathamesh250205&hide_border=true&background=0D1117&stroke=FF6B35&ring=FFB627&fire=FF6B35&currStreakLabel=FF6B35" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prathamesh250205&bg_color=0D1117&color=FF6B35&line=FFB627&point=E8F5E1&area=true&hide_border=true" width="100%" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-trophies.vercel.app/?username=Prathamesh250205&theme=onedark&no-frame=true&column=7" />
+
+</div>
+
+---
+
+## `> contribution-graph --normal`
+
+<div align="center">
+<img src="https://ghchart.rshah.org/FF6B35/Prathamesh250205" alt="Prathamesh's Github contribution graph" width="100%" />
+</div>
+
+---
+
+## `> contribution-snake.gif`
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Prathamesh250205/Prathamesh250205/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</div>
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Prathamesh250205&color=FF6B35&style=for-the-badge&label=PROFILE+VIEWS)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0D1117&fontColor=FF6B35&height=100&section=footer" />
+
+</div>

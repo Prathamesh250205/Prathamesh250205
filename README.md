@@ -87,6 +87,20 @@ Drafts legally grounded Right to Information (RTI Act, 2005) applications from c
 </details>
 
 <details>
+<summary><b>&#9654; raftkv</b> &mdash; Sharded, fault-tolerant key-value store on a from-scratch Raft implementation</summary>
+
+A distributed database that replicates data across nodes with the Raft consensus algorithm, built from scratch in Go, so it keeps serving and never loses acknowledged writes when nodes crash or the network splits. Keys are sharded across independent Raft groups, and correctness is verified by a linearizability checker under randomized failures.
+
+| Aspect | Detail |
+| :-- | :-- |
+| **Stack** | Go (standard library), Docker, GitHub Actions, Prometheus, Grafana, Porcupine |
+| **Scale & Eval** | **91× write throughput** (63 → 5,757 ops/s), **19× faster reads**, **0.4 s leader failover**; verified linearizable across thousands of operations per chaos run |
+| **Architecture** | Raft with snapshots, membership changes & leadership transfer &bull; Multi-Raft sharding with leader balancing &bull; shared write-ahead log with group commit |
+| **Links** | [GitHub Repo](https://github.com/Prathamesh250205/raftkv) &bull; [Open in Codespaces](https://codespaces.new/Prathamesh250205/raftkv) |
+
+</details>
+
+<details>
 <summary><b>&#9654; Lightweight CNN Architectures for Pneumonia Detection</b> &mdash; Comparative analysis with Grad-CAM explainability</summary>
 
 Detects pneumonia from chest X-ray images using deep learning, comparing three lightweight CNN models and visualizing what each one "looks at" when making its diagnosis — revealing that the most accurate model isn't always the most trustworthy one.

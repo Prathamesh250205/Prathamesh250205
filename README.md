@@ -96,7 +96,7 @@ A distributed database that replicates data across nodes with the Raft consensus
 | **Stack** | Go (standard library), Docker, GitHub Actions, Prometheus, Grafana, Porcupine |
 | **Scale & Eval** | **91× write throughput** (63 → 5,757 ops/s), **19× faster reads**, **0.4 s leader failover**; verified linearizable across thousands of operations per chaos run |
 | **Architecture** | Raft with snapshots, membership changes & leadership transfer &bull; Multi-Raft sharding with leader balancing &bull; shared write-ahead log with group commit |
-| **Links** | [GitHub Repo](https://github.com/Prathamesh250205/raftkv) &bull; [Open in Codespaces](https://codespaces.new/Prathamesh250205/raftkv) |
+| **Links** | [GitHub Repo](https://github.com/Prathamesh250205/raftkv) &bull; [Live Demo](https://prathamesh250205.github.io/raftkv/) (crash a node, watch it recover) &bull; [Open in Codespaces](https://codespaces.new/Prathamesh250205/raftkv) |
 
 </details>
 
